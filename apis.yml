@@ -1,8 +1,28 @@
 aid: ditto-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ditto-biosciences.png
 name: Ditto Biosciences
-description: Ditto Biosciences is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Ditto Biosciences (Ditto Bio) is a San Francisco biotechnology startup, founded in 2025 and
+  backed by Y Combinator (Winter 2026 batch), that discovers drugs for autoimmune diseases by
+  identifying and engineering immune-controlling proteins that parasites, viruses, ticks, and
+  worms have naturally evolved over millions of years to modulate the human immune system. The
+  company pairs an AI platform with wet-lab biology to mine more than a million natural proteins,
+  identify candidates predicted to hit clinically validated human immune-disease targets, and
+  transform them into therapeutic candidates. Ditto is an early-stage, three-person team led by
+  founders Dennis Sun (CEO), Adair Borges (CSO), and Emily Weiss (CTO). This is a company profile
+  in the API Evangelist network; Ditto Bio currently publishes a marketing and science website
+  only and exposes no public API, developer portal, SDK, or machine-readable developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/ditto-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,50 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: W26
+x-founded: '2025'
+x-location: San Francisco, CA
+x-industry: Biotechnology
+x-founders:
+- Dennis Sun (CEO)
+- Adair Borges (CSO)
+- Emily Weiss (CTO)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Autoimmune Disease
+- Immunology
+- Therapeutics
+- Artificial Intelligence
+- Proteins
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ditto-biosciences-domain-security.yml
+- type: Website
+  url: https://www.dittobio.com/
+- type: Blog
+  url: https://www.dittobio.com/blog
+- type: Publications
+  url: https://www.dittobio.com/science
+- type: Support
+  url: mailto:hello@dittobio.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dittobio
+- type: Twitter
+  url: https://x.com/dittobio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
